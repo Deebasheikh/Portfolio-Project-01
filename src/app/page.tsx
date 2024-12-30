@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import profile from "@/app/assets/profile.jpg";
 import { FaHtml5 } from "react-icons/fa";
-import { SiCss3 } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
+import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-import profile from "@/app/assets/profile.jpg";
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 </style>
@@ -36,19 +36,19 @@ export default function Home() {
             className="flex flex-wrap justify-center sm:justify-start mt-3 space-x-4 
           text-3xl"
           >
-            <Link href='#' className="p-3 rounded-full bg-orange-800 text-white">
-            <FaHtml5 />
+            <Link href='#'  className="p-3 rounded-full bg-orange-800 text-white">
+              <FaHtml5 />
             </Link>
-            <Link href='#' className="p-3 rounded-full bg-blue-500 text-white">
-              <SiCss3 />
+            <Link href='#'  className="p-3 rounded-full bg-blue-500 text-white">
+            <FaCss3Alt />
             </Link>
-            <Link href='#' className="p-3 rounded-full bg-yellow-400 text-white">
-              <TbBrandJavascript />
+            <Link href='#'  className="p-3 rounded-full bg-yellow-400 text-white">
+            <IoLogoJavascript />
             </Link>
             <Link href='#' className="p-3 rounded-full bg-gray-950 text-sky-400">
               <FaReact />
             </Link>
-            <Link href='#' className="p-3 rounded-full bg-gray-950 text-white">
+            <Link href='#'  className="p-3 rounded-full bg-gray-950 text-white">
               <RiNextjsFill />
             </Link>
           </div>
