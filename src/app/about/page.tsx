@@ -6,8 +6,8 @@ const About = () => {
       <div className="max-w-3xl mx-auto bg-gray-100 font-[open-sans] p-[15px] sm:p-[14.5px] md:p-[15px]  rounded-lg shadow-lg">
         <h2 className="text-xl sm:text-3xl text-center mb-1 sm:mb-3 font-bold ">About Me</h2>
         <p className="text-sm sm:text-base text-gray-700 mb-2 sm:mb-4">
-          Hello! I'm Areeba Inam Rasool, a front-end developer passionate about building fast, scalable, and user-friendly
-          web applications. With a strong foundation in HTML, CSS, JavaScript, React, and Next.js, I'm excited to bring my
+          Hello! I&apos;m Areeba Inam Rasool, a front-end developer passionate about building fast, scalable, and user-friendly
+          web applications. With a strong foundation in HTML, CSS, JavaScript, React, and Next.js, I&apos;m excited to bring my
           skills to innovative projects.
         </p>
         <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-1 sm:mb-3">Skills</h3>
