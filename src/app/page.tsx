@@ -21,13 +21,13 @@ export default function Home() {
         {/* Text Content */}
         <div className="text-center sm:text-left">
           <h1 className="text-2xl mt-2 sm:mt-0 sm:text-4xl font-bold mb-2 sm:mb-4">
-            Hi, I'm Areeba Sheikh
+            Hi, I&apos;m Areeba Sheikh
           </h1>
           <h2 className="text-lg sm:text-2xl text-blue-500 mb-2 sm:mb-4 font-semibold">
             Front-end Developer
           </h2>
           <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-            I'm passionate about building web applications <br />
+            I&apos;m passionate about building web applications <br />
             that make a difference, using HTML, CSS, JavaScript, React, and
             Next.js.
           </p>
@@ -82,7 +82,7 @@ export default function Home() {
           className="bg-gray-600 text-white px-4 py-2 rounded-lg text-base sm:text-base 
           lg:text-lg hover:bg-gray-800 transition"
         >
-          Let's Talk
+          Let&apos;s Talk
         </Link>
       </div>
     </section>
