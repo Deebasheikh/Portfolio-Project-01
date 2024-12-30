@@ -5,6 +5,7 @@ import { SiCss3 } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
+import profile from "@/app/assets/profile.jpg";
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 </style>
@@ -56,7 +57,7 @@ export default function Home() {
         {/* Profile Image */}
         <div className="flex justify-center">
           <Image
-            src="/profile.jpg"
+            src={profile}
             alt="Areeba Sheikh"
             width={200}
             height={200}
