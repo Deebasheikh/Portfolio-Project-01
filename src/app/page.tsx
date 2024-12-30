@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FaHtml5 } from "react-icons/fa6";
+import { FaHtml5 } from "react-icons/fa";
 import { SiCss3 } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
@@ -35,21 +35,21 @@ export default function Home() {
             className="flex flex-wrap justify-center sm:justify-start mt-3 space-x-4 
           text-3xl"
           >
-            <button className="p-3 rounded-full bg-orange-800 text-white">
-              <FaHtml5 />
-            </button>
-            <button className="p-3 rounded-full bg-blue-500 text-white">
+            <Link href='#' className="p-3 rounded-full bg-orange-800 text-white">
+            <FaHtml5 />
+            </Link>
+            <Link href='#' className="p-3 rounded-full bg-blue-500 text-white">
               <SiCss3 />
-            </button>
-            <button className="p-3 rounded-full bg-yellow-400 text-white">
+            </Link>
+            <Link href='#' className="p-3 rounded-full bg-yellow-400 text-white">
               <TbBrandJavascript />
-            </button>
-            <button className="p-3 rounded-full bg-gray-950 text-sky-400">
+            </Link>
+            <Link href='#' className="p-3 rounded-full bg-gray-950 text-sky-400">
               <FaReact />
-            </button>
-            <button className="p-3 rounded-full bg-gray-950 text-white">
+            </Link>
+            <Link href='#' className="p-3 rounded-full bg-gray-950 text-white">
               <RiNextjsFill />
-            </button>
+            </Link>
           </div>
         </div>
 
